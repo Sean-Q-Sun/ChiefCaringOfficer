@@ -1,0 +1,4 @@
+sceneSetups:
+- path: D:/UnityProjects/MassGame/Mass_Movement/Assets/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
