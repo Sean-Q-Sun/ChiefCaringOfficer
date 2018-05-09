@@ -35,13 +35,13 @@ public class GameManager : MonoBehaviour
         // If we have clicked, set the raycast's target to be selected
         if (Input.GetMouseButtonUp(0))
         {
-            if (mousePositionInWorld.collider.gameObject.CompareTag("GamePiece"))
+            /*if (mousePositionInWorld.collider.gameObject.CompareTag("GamePiece"))
             {
                 Debug.Log("here");
                 selectedPiece = mousePositionInWorld.collider.gameObject;
-                selectedPiece.GetComponent<Piece>().SelectPiece();
+                //selectedPiece.GetComponent<Piece>().SelectPiece();
                 Debug.Log("Selected Piece");
-            }
+            }*/
         }
     }
 

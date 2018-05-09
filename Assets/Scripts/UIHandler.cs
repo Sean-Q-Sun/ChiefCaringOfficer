@@ -12,6 +12,7 @@ public class UIHandler : MonoBehaviour
     void Start()
     {
         GM = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        StartGame();
     }
 
     // Update is called once per frame
