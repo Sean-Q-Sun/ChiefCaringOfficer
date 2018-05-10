@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public Camera mainCamera;   // The main camera in our scene
     public RaycastHit mousePositionInWorld; // The position of our mouse in the world space
 
+    public static CultureCatalog CC;
+
     // public List<Unit> listOfPlayers;
     // public Player activePlayer;   // The player that is currently taking their turn
 

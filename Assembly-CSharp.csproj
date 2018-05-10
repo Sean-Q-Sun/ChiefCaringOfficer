@@ -59,10 +59,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CultureCatalog.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\InputNormal.cs" />
+    <Compile Include="Assets\Scripts\InputStyle.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\UIHandler.cs" />
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/UnityProjects/SeanEndOf2ndYearGameJam/ChiefCaringOfficer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
